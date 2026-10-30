@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: api
 spec:
-  replicas: 4 # Four for the sale
+  replicas: 6 # Four for the sale
   selector:
     matchLabels: {app: api}
   template:
